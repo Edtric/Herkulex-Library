@@ -1,0 +1,27 @@
+--------------- Build Started: 01/27/2016 15:45:53 Project: HerkulexOpenHouse, Configuration: ARM GCC 4.8.4 Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -Wno-main -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_484\Debug/herkulex2.lst -g -D DEBUG -Wall -ffunction-sections -Og -c .\herkulex2.c -o .\CortexM0\ARM_GCC_484\Debug\herkulex2.o
+In file included from .\herkulex2.c:13:0:
+.\herkulex2.h:62:18: warning: 'LED_BLUE' defined but not used [-Wunused-variable]
+     static uint8 LED_BLUE       = 0x02u;
+                  ^
+.\herkulex2.h:63:18: warning: 'LED_CYAN' defined but not used [-Wunused-variable]
+     static uint8 LED_CYAN       = 0x03u;
+                  ^
+.\herkulex2.h:65:18: warning: 'LED_GREEN2' defined but not used [-Wunused-variable]
+     static uint8 LED_GREEN2     = 0x05u;
+                  ^
+.\herkulex2.h:66:18: warning: 'LED_PINK' defined but not used [-Wunused-variable]
+     static uint8 LED_PINK       = 0x06u;
+                  ^
+.\herkulex2.h:67:18: warning: 'LED_WHITE' defined but not used [-Wunused-variable]
+     static uint8 LED_WHITE      = 0x07u;    
+                  ^
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_484\Debug\HerkulexOpenHouse.a .\CortexM0\ARM_GCC_484\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_484\Debug\UART.o .\CortexM0\ARM_GCC_484\Debug\UART_SPI_UART.o .\CortexM0\ARM_GCC_484\Debug\UART_SPI_UART_INT.o .\CortexM0\ARM_GCC_484\Debug\UART_PM.o .\CortexM0\ARM_GCC_484\Debug\UART_UART.o .\CortexM0\ARM_GCC_484\Debug\UART_BOOT.o .\CortexM0\ARM_GCC_484\Debug\UART_UART_BOOT.o .\CortexM0\ARM_GCC_484\Debug\UART_SCBCLK.o .\CortexM0\ARM_GCC_484\Debug\UART_tx.o .\CortexM0\ARM_GCC_484\Debug\UART_SCB_IRQ.o .\CortexM0\ARM_GCC_484\Debug\UART_rx.o .\CortexM0\ARM_GCC_484\Debug\CyBootAsmGnu.o .\CortexM0\ARM_GCC_484\Debug\CyFlash.o .\CortexM0\ARM_GCC_484\Debug\CyLib.o .\CortexM0\ARM_GCC_484\Debug\cyPm.o .\CortexM0\ARM_GCC_484\Debug\cyutils.o .\CortexM0\ARM_GCC_484\Debug\CyLFClk.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_484\Debug\HerkulexOpenHouse.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o .\CortexM0\ARM_GCC_484\Debug\HerkulexOpenHouse.elf .\CortexM0\ARM_GCC_484\Debug\main.o .\CortexM0\ARM_GCC_484\Debug\herkulex2.o .\CortexM0\ARM_GCC_484\Debug\cymetadata.o .\CortexM0\ARM_GCC_484\Debug\Cm0Start.o .\CortexM0\ARM_GCC_484\Debug\HerkulexOpenHouse.a "C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CortexM0\ARM_GCC_484\Debug\CyComponentLibrary.a" -mcpu=cortex-m0 -mthumb -g -ffunction-sections -Og -Wl,-Map,.\CortexM0\ARM_GCC_484\Debug/HerkulexOpenHouse.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -Wl,--end-group
+cyelftool.exe -C "C:\Users\edtriccorp\Documents\PSoC Creator\HerkulexOpenHouse\HerkulexOpenHouse.cydsn\CortexM0\ARM_GCC_484\Debug\HerkulexOpenHouse.elf" --flash_row_size 128 --flash_size 32768
+cyelftool.exe -S "C:\Users\edtriccorp\Documents\PSoC Creator\HerkulexOpenHouse\HerkulexOpenHouse.cydsn\CortexM0\ARM_GCC_484\Debug\HerkulexOpenHouse.elf"
+Flash used: 7040 of 32768 bytes (21.5 %).
+SRAM used: 1644 of 4096 bytes (40.1 %). Stack: 1024 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 01/27/2016 15:45:55 ---------------

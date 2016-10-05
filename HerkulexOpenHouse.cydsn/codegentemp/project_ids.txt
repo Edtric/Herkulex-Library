@@ -1,0 +1,5 @@
+C:\Users\edtriccorp\Documents\PSoC Creator\HerkulexOpenHouse\HerkulexOpenHouse.cydsn\HerkulexOpenHouse.cyprj|951153df-92ce-415e-9ce0-d14d82152b56
+C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|bd0ba8fa-5202-42b2-b376-0673245412dd
+C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|5231c8f5-5507-4cb0-aec5-6fea7535f107
+C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|fc79f6b8-4c3d-4b91-b3a1-3f7f6c58ebfa
+C:\Program Files (x86)\Cypress\PSoC Creator\3.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|2c06990d-1b59-488e-a6f3-930564f9047a
